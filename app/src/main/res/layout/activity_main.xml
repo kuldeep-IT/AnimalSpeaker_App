@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/grid"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3">
+
+        <ImageButton
+            android:id="@+id/lion"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:tag="lion"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:srcCompat="@drawable/lion" />
+
+        <ImageButton
+            android:id="@+id/bear"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:tag="bear"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:srcCompat="@drawable/bear" />
+
+        <ImageButton
+            android:id="@+id/cat"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:tag="cat"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:srcCompat="@drawable/cat" />
+
+        <ImageButton
+            android:id="@+id/leopard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:tag="leopard"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:srcCompat="@drawable/leopard" />
+
+        <ImageButton
+            android:id="@+id/camel"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:tag="camel"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:srcCompat="@drawable/camel" />
+
+        <ImageButton
+            android:id="@+id/zebra"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:tag="zebra"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:srcCompat="@drawable/zebra" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
